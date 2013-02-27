@@ -1,6 +1,6 @@
 function resizeCaptcha() {
     //check if needs to be resized
-    if (jQuery("#recaptcha_widget_div").length > 0  && jQuery("#content").width() < 450) {
+    if (jQuery("#recaptcha_widget_div").length > 0  && jQuery("body").width() < 450) {
         // move stuff around
         jQuery("#recaptcha_table tbody tr").eq(0).after('<tr id="recaptcha_responsive_holder"></tr>');
         jQuery("#recaptcha_reload_btn").parent().appendTo(jQuery("#recaptcha_responsive_holder"));

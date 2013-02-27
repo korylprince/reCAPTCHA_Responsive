@@ -5,6 +5,8 @@ reCAPTCHA is great... Unless you're trying to use it on small pages. The widgets
 
 There are three sizes Normal, Small, and Smaller. Once you go away from Normal, there is no going back (This could be fixed, I just didn't want to write the code.) It will alternate between Small and Smaller depending on size.
 
+By default it checks the body for the size. You can edit this and the trigger widths pretty easily.
+
 I've only tested this on the clean theme. No idea what it will do on the others.
 
 #Usage#
